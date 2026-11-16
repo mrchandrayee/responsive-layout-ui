@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08090d">
+  <title>Responsive Layout UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="header">
+      <p class="eyebrow">INTERACTIVE FLEX GALLERY</p>
+      <h1>Responsive Layout UI</h1>
+      <p class="subtitle">Explore the process. Hover or tap a panel to bring it into focus.</p>
+    </header>
+
+    <section class="gallery-wrap" aria-label="Project process">
+      <div class="gallery-container" id="gallery">
+        <article class="column design active" tabindex="0" role="button" aria-pressed="true">
+          <div class="panel-content">
+            <span class="number">01</span>
+            <h2>Design</h2>
+            <p>Crafting beautiful, intuitive digital experiences.</p>
+            <span class="panel-tag">DISCOVER & CREATE</span>
+          </div>
+        </article>
+        <article class="column develop" tabindex="0" role="button" aria-pressed="false">
+          <div class="panel-content">
+            <span class="number">02</span>
+            <h2>Develop</h2>
+            <p>Building fast, responsive, and scalable code.</p>
+            <span class="panel-tag">BUILD & REFINE</span>
+          </div>
+        </article>
+        <article class="column deploy" tabindex="0" role="button" aria-pressed="false">
+          <div class="panel-content">
+            <span class="number">03</span>
+            <h2>Deploy</h2>
+            <p>Launching projects smoothly to the cloud.</p>
+            <span class="panel-tag">SHIP WITH CONFIDENCE</span>
+          </div>
+        </article>
+        <article class="column deliver" tabindex="0" role="button" aria-pressed="false">
+          <div class="panel-content">
+            <span class="number">04</span>
+            <h2>Deliver</h2>
+            <p>Driving top-tier quality and client satisfaction.</p>
+            <span class="panel-tag">MAKE AN IMPACT</span>
+          </div>
+        </article>
+      </div>
+      <div class="hint"><span class="hint-dot"></span> HOVER / TAP A PANEL TO EXPAND</div>
+    </section>
+    <footer>RESPONSIVE FLEXBOX · CSS TRANSITIONS · INTERACTIVE UI</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
